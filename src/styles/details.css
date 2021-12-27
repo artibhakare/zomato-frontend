@@ -1,0 +1,123 @@
+.details {
+    margin-top: 120px;
+}
+
+.images {
+    height: 350px;
+}
+
+.images img {
+    height: 350px;
+}
+
+.restName {
+    height: 43px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+
+    text-align: left;
+    color: #192f60;
+}
+
+.react-tabs__tab {
+    font-family:  'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    color: #192f60;
+    border: none;
+}
+
+.react-tabs__tab--selected {
+    border: none;
+    border-bottom: solid 3px #ce0505;
+}
+
+.about {
+    height: 31px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    color: #192f60;
+}
+
+.cuisine {
+    height: 25px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    color: #192f60;
+}
+
+.cuisines 
+{
+    height: 30px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 19px;
+    text-align: left;
+    color: #192f60;
+}
+.addButton
+{
+    padding: 7px;
+    margin: 9px;
+    border: 2px solid; 
+    border-radius: 11px;
+}
+.removeButton
+{
+    padding: 7px 9px;
+    margin: 2px; 
+    border: 2px solid;
+    border-radius: 11px;
+}
+.menu-resto-name
+{
+    font-size: 22px;
+    color: darkblue;
+    display: inline-block;
+    vertical-align: top;
+}
+.menu-resto-price
+{
+    font-size: 18px;
+    color: darkblue;
+    font-weight: 500;
+}
+.menu-resto-desc
+{
+    font-size: 13px;
+    color: darkblue;
+    font-weight: 500;
+
+}
+#menu-add {
+    width: 77px;
+    margin-top: 40px;
+    border: 1px solid red;
+    background: #988b8b14;
+    border-radius: 5px;
+    color: #d80f0f;
+}
+#item-qty{
+    margin: 5px;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 600;
+}
+
+#add-sub-btn {
+    width: 25px;
+    background: no-repeat;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.price
+{   
+
+    display: flex;
+    padding-left: 194px;
+
+}

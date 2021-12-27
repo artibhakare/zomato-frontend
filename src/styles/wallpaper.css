@@ -1,0 +1,61 @@
+.suggestionBox {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    border-radius: 3px;
+    width: 477px;
+    top: 34px;
+    left: 0;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fff;
+    margin-left: 21px;
+}
+
+.suggestionItem {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.suggestionImage {
+    display: inline-block;
+}
+
+.suggestionImage img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.suggestionText {
+    display: inline-block;
+    margin-left: 17px;
+    text-align: left;
+}
+
+.suggestionTextName {
+    height: 23px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #192f60;
+}
+
+.suggestionTextLocality {
+    height: 17px;
+    font-family:  'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    color: #636f88;
+}
+
+.orderButton {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    right: 15px;
+}
